@@ -14,5 +14,5 @@ $ $BUILDER build . -t sphinx-mesa:latest
 ```
 $ DOCS_ON_HOST=/Users/ben/my-docs
 $ IMAGE_NAME=something
-$ podman run -it --rm -v $DOCS_ON_HOST:/docs $IMAGE_NAME make -C /docs html"
+$ podman run -it --rm -v $DOCS_ON_HOST:/docs $IMAGE_NAME make -C /docs html
 ```
